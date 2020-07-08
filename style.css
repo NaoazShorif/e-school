@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.logo{
+    width: 198.07px;
+    height: 59px;
+}
+.header, .main{
+    background: #F0FFF0;
+}
+.nav-item{
+    margin-left:15px;
+    font-weight: 700;
+
+}
+.button{
+    color: white;
+    background: #21B573;
+    border-radius: 33px;
+    padding: 10px 20px;
+ 
+}
+.button:hover{
+    text-decoration: none;
+    color:black;
+}
+.main{
+    padding: 50px;
+  
+}
+.main span{
+    color: #21B573;
+}
+.main h1{
+    font-weight: bold;
+}
+.main, .main h6, .main h1{
+    line-height: 50px;
+}
+.main img{
+    width: 100%;
+}
+.card{
+    background: #F8FFFB;
+    border: none;
+}
+.information{
+    padding: 100px;
+    text-align: center;
+}
+.information img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+.card:hover, .courses .card{
+    box-shadow: 10px 10px 20px grey;
+    background: #fff;
+}
+.courses{
+    padding: 50px;
+}
+.courses .tittle {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.courses .card-image{
+    width: 90%;
+    margin: 15px auto;
+}
+.courses .card-footer{
+    border: none;
+    background: white;
+    margin-top:20px;
+}
+.testimonial{
+    padding-bottom:100px;
+}
+.testimonial .tittle{
+    text-align: center;
+    padding: 40px 0;
+}
+.testimonial .about{
+    width: 70%;
+}
+.testimonial .row img{
+   width:100px;
+}
+.last-section{
+    
+    background-color: black;
+   margin-bottom: 0 !important;
+}
+p{
+    color: white;
+}
+.link{
+    padding: 60px;
+}
+footer{
+    text-align: center;
+    color: whitesmoke;
+}
+.task{
+    border: none;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px dimgrey;
+}
+.task:hover{
+    box-shadow: 10px 10px 10px dimgrey;
+    transition: 0.2s;
+}
